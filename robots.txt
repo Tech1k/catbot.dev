@@ -1,0 +1,10 @@
+User-agent: *
+
+Allow: /
+Disallow: /thanks
+Disallow: /invite
+Disallow: /support
+Disallow: /join
+Disallow: /error/
+
+Sitemap: https://catbot.dev/sitemap.xml
