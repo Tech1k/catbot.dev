@@ -102,7 +102,6 @@ header .header-content .header-content-inner b {
     background-color: #5465A0;
     padding: 70px 0;
     text-align: center;
-
 }
 
 .intro-body {
@@ -113,6 +112,13 @@ header .header-content .header-content-inner b {
 
 .intro b {
   color: #CFA2CB;
+}
+
+.footer {
+	color: #fff;
+    background-color: #e586aa;
+    padding: 70px 0;
+    text-align: center;
 }
 
 .content {
