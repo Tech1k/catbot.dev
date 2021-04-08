@@ -7,7 +7,7 @@
     <meta name="theme-color" content="#ffc8dd">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>The Discord Catbot</title>
+    <title>The Catbot</title>
     <meta name="description" content="An all-in-one bot for all your neko needs and more!">
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/custom.css?v=2" rel="stylesheet">
@@ -20,7 +20,7 @@
     <meta name="twitter:creator" content="@catboylounge">
 
     <meta property="og:title" content="Catbot">
-    <meta property="og:site_name" content="The Discord Catbot">
+    <meta property="og:site_name" content="The Catbot">
     <meta property="og:image" content="https://catbot.dev/assets/images/catbot.png?v=3">
     <meta property="og:image:width" content="64">
     <meta property="og:image:height" content="64">
@@ -52,14 +52,14 @@
                 </a>
             </div>
             <div class="collapse navbar-collapse" id="navbar">
-                <ul class="nav navbar-nav navbar-right">
-              <li>
-                  <a href="/invite">Invite</a>
-              </li>
-              <li>
-                  <a href="/support">Support</a>
-              </li>
-          </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="/discord">Discord</a>
+                </li>
+                <li>
+                    <a href="/telegram">Telegram</a>
+                </li>
+            </ul>
             </div>
         </div>
     </nav>
@@ -70,38 +70,73 @@
                 <h1>Catbot</h1>
                 <p>An all-in-one bot for all of your neko needs and more!</p>
                 <a href="/invite" class="btn btn-primary btn-lg">Add to Discord</a>
-		        <a href="/support" class="btn btn-primary btn-lg">Join us</a><br/><br/>
+                <a href="#" class="btn btn-primary btn-lg">Add to Telegram (coming soon)</a><br/><br/>
+		        <a href="/discord" class="btn btn-primary btn-lg">Join us on Discord</a>
+                <a href="/telegram" target="_blank" class="btn btn-primary btn-lg">Join us on Telegram</a><br/><br/>
                 <a href="https://catboys.io" target="_blank" class="btn btn-primary btn-lg">Visit Catboys.io</a>
             </div>
         </div>
     </header>
-    <section class="intro">
+    <section class="intro" id="commands">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h2 class="section-heading">List of commands</h2>
+                    <h3 style="position: relative; top: -7px;">Discord | Telegram</h3>
+                    <p class="text-light intro-body"><b>cbhelp | /help</b> - Shows the available commands and more</p>
+                    <br>
+                    <p class="text-light intro-body"><b>cbinfo | /info</b> - Shows information about the bot</p>
+                    <br>
+                    <p class="text-light intro-body"><b>cbimg | /img</b> - Gets a random image from catboys.io</p>
+                    <br>
+                    <p class="text-light intro-body"><b>cbquote | /quote</b> - Gets a random inspirational quote from zenquotes.io</p>
+                    <br>
+                    <p class="text-light intro-body"><b>cbcat | /cat</b> - Gets a random cat photo from thecatapi.com</p>
+                    <br>
+                    <p class="text-light intro-body"><b>cbuwu | /uwu</b> - Have a catboy in your server</p>
+                    <br>
+                    <p class="text-light intro-body"><b>cb8ball | /8ball</b> - The classic magic 8 ball</p>
+                    <br>
+                    <p class="text-light intro-body"><b>cbflip | /flip</b> - Heads or tails</p>
+                    <br>
+                    <p class="text-light intro-body"><b>cbserver</b> - View information on the server</p>
+                    <br>
+                    <p class="text-light intro-body"><b>cbprofile</b> - View your user profile information</p>
+                    <br>
+                    <p class="text-light intro-body"><b>cbavatar</b> - View your user profile image</p>
+                    <br>
+                    <p class="text-light intro-body"><b>cbping | /ping</b> - Ping the server</p>
+                    <br>
+                    <p class="text-light intro-body"><b>cbsupport | /support</b> - Get a link to join our Discord server</p>
+                    <br>
+                    <p class="text-light intro-body"><b>cbinvite | /invite</b> - Invite the bot to your server</p>
+                    <br/>
+                    <p class="text-light intro-body"><b>cbchangelog | /changelog</b> - See what has changed</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="changelog" id="changelog">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                 	<span style="font-size: 60px"></span>
-                    <h2 class="section-heading">List of commands</h2>
-                    <p class="text-light intro-body"><b>cbhelp</b> - Shows the available commands and more</p>
+                    <h2 class="section-heading">Changelog</h2>
+                    <p class="text-light changelog-body"><b>v1.2.5 (current)</b><br/>- Added memes (cbmeme) and changelog (cbchangelog)</p>
                     <br>
-                    <p class="text-light intro-body"><b>cbinfo</b> - Shows information about the bot</p>
+                    <p class="text-light changelog-body"><b>v1.2.4</b><br/>- Updated command formatting</p>
                     <br>
-                    <p class="text-light intro-body"><b>cbimg</b> - Gets a random image from catboys.io</p>
+                    <p class="text-light changelog-body"><b>v1.2.3</b><br/>- Added moderation commands</p>
                     <br>
-                    <p class="text-light intro-body"><b>cbquote</b> - Gets a random inspirational quote from zenquotes.io</p>
+                    <p class="text-light changelog-body"><b>v1.2.2</b><br/>- Added the cbavatar command</p>
                     <br>
-                    <p class="text-light intro-body"><b>cbuwu</b> - Have a catboy in your server</p>
+                    <p class="text-light changelog-body"><b>v1.2.1</b><br/>- Updated help command formatting</p>
                     <br>
-                    <p class="text-light intro-body"><b>cb8ball</b> - The classic magic 8 ball</p>
+                    <p class="text-light changelog-body"><b>v1.2</b><br/>- Added many commands including cbcat, cbquote, and more</p>
                     <br>
-                    <p class="text-light intro-body"><b>cbflip</b> - Heads or tails</p>
+                    <p class="text-light changelog-body"><b>v1.1</b><br/>- Reworked the code for performance</p>
                     <br>
-                    <p class="text-light intro-body"><b>cbavatar</b> - View your user profile image</p>
-                    <br>
-                    <p class="text-light intro-body"><b>cbping</b> - Ping the server</p>
-                    <br>
-                    <p class="text-light intro-body"><b>cbsupport</b> - Get a link to join our Discord server</p>
-                    <br>
-                    <p class="text-light intro-body"><b>cbinvite</b> - Invite the bot to your server</p>
+                    <p class="text-light changelog-body"><b>v1.0</b><br/>- Initial release</p>
                 </div>
             </div>
         </div>
@@ -109,7 +144,7 @@
     <section class="footer">
         <div class="small-print">
         	<div class="container">
-                <h3>The Discord Catbot</h3>
+                <h3>The Catbot</h3>
         		<p>Copyright &copy; <a href="https://catboys.io" target="_blank" style="text-decoration: none; color: white;">Catboys.io</a> 2021</p>
         	</div>
         </div>

@@ -105,12 +105,29 @@ header .header-content .header-content-inner b {
 }
 
 .intro-body {
-    text-indent: -140px;
+    /*text-indent: -140px;*/
     margin-left: 140px;
     text-align: left;
 }
 
 .intro b {
+  color: #CFA2CB;
+}
+
+.changelog {
+	color: #fff;
+    background-color: #687fd3;
+    padding: 70px 0;
+    text-align: center;
+}
+
+.changelog-body {
+    /*text-indent: -140px;*/
+    margin-left: 140px;
+    text-align: left;
+}
+
+.changelog b {
   color: #CFA2CB;
 }
 
