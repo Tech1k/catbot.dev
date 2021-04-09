@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Thanks for adding Catbot!</title>
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/css/custom.css?v=2" rel="stylesheet">
+    <link href="assets/css/style.css?v=9" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-142187073-52"></script>
@@ -19,6 +19,28 @@
 
         gtag('config', 'UA-142187073-52');
     </script>
+
+    <style>
+        @media(max-width:875px) {
+            #join-button-top {
+                margin-bottom: 12px;
+            }
+
+            #join-button-bottom {
+                margin-top: 12px;
+            }
+        }
+
+        @media(max-width:640px) {
+            #join-button-top {
+                margin-bottom: 12px;
+            }
+
+            #join-button-bottom {
+                margin-top: 12px;
+            }
+        }
+    </style>
 </head>
 <body>
     <nav id="siteNav" class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -38,9 +60,6 @@
             <div class="collapse navbar-collapse" id="navbar">
                 <ul class="nav navbar-nav navbar-right">
               <li>
-                  <a href="/invite">Invite</a>
-              </li>
-              <li>
                   <a href="/discord">Discord</a>
               </li>
               <li>
@@ -53,9 +72,12 @@
     <header>
         <div class="header-content">
             <div class="header-content-inner">
-                <img src="./assets/images/catbot.png?v=4" alt="catbot" width="256px" height="256px">
+                <img src="/assets/images/cat.gif" alt="catbot" width="256px" height="256px" style="box-shadow: 4px 6px 3px purple;">
 		        <p><h2>Thanks for adding <b>Catbot</b> to your server!</h2></p><br>
-                <p><a href="/discord" class="btn btn-primary btn-lg">Join our Discord server</a> <a href="https://catboys.io" target="_blank" class="btn btn-primary btn-lg">Visit Catboys.io</a></p>
+                <p><a href="/discord" id="join-button-top" class="btn btn-primary btn-lg">Join our Discord server</a>&nbsp;
+                    <a href="/telegram" id="join-button-bottom" class="btn btn-primary btn-lg">Join our Telegram group</a>
+                    <br/><br/>
+                    <a href="https://catboys.io" target="_blank" class="btn btn-primary btn-lg">Visit Catboys.io</a></p>
             </div>
         </div>
     </header>
