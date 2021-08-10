@@ -16,6 +16,24 @@
 			<height>72</height>
 		</image>
 		<item>
+			<title>v1.2.8</title>
+			<link>https://catbot.dev</link>
+			<description><![CDATA[- Added 2 new commands including cbcatboy and cbyaoi for categorized images and changed cbcat to cbcatpic]]></description>
+            <pubDate>Fri, 6 August 2021</pubDate>
+		</item>
+		<item>
+			<title>v1.2.7</title>
+			<link>https://catbot.dev</link>
+			<description><![CDATA[- Fix latency and performance issues from the v1.2.6 changes]]></description>
+            <pubDate>Thu, 5 August 2021</pubDate>
+		</item>
+		<item>
+			<title>v1.2.6</title>
+			<link>https://catbot.dev</link>
+			<description><![CDATA[- Added bot CPU usage to cbinfo]]></description>
+            <pubDate>Wen, 4 August 2021</pubDate>
+		</item>
+		<item>
 			<title>v1.2.5</title>
 			<link>https://catbot.dev</link>
 			<description><![CDATA[- Added memes ([Discord]: cbmeme [Telegram]: /meme) and changelog ([Discord]: cbchangelog [Telegram]: /changelog)]]></description>
