@@ -28,8 +28,9 @@ header {
     min-height: auto;
     text-align: center;
     color: #5465A0;
-    background-color: #ffc8dd;
+    background-color: #FFAFCD;
     background-position: center;
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
 }
 
 header .header-content {
@@ -119,6 +120,7 @@ header .header-content .header-content-inner b {
     background-color: #687fd3;
     padding: 70px 0;
     text-align: center;
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
 }
 
 .changelog-body {
@@ -136,6 +138,7 @@ header .header-content .header-content-inner b {
     background-color: #e586aa;
     padding: 70px 0;
     text-align: center;
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
 }
 
 .content {
@@ -455,4 +458,8 @@ img::-moz-selection {
 
 .bg-primary {
     background-color: #5465A0;
+}
+
+#divider {
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
 }
