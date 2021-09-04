@@ -463,3 +463,22 @@ img::-moz-selection {
 #divider {
     box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
 }
+
+/* Scroll bar */
+* {
+	scrollbar-width: thin;
+	scrollbar-color: whitesmoke rgba(153,170,255,1);
+}
+
+*::-webkit-scrollbar {
+	width: 7px;
+}
+
+*::-webkit-scrollbar-track {
+	background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+	background-color: rgba(153,170,255,1);
+	border-radius: 20px;
+}
