@@ -5,9 +5,9 @@
 		<link>https://catbot.dev</link>
 		<description>Updates from the Catbot changelog.</description>
 		<language>en-us</language>
-		<lastBuildDate>Sun, 11 Apr 2021 09:15:00 GMT</lastBuildDate>
-		<managingEditor>kristian@catboys.io</managingEditor>
-		<webMaster>webmaster@catboys.io</webMaster>
+		<lastBuildDate>Sat, 2 Oct 2021 10:00:00 GMT</lastBuildDate>
+		<managingEditor>kristian@catboys.com</managingEditor>
+		<webMaster>webmaster@catboys.com</webMaster>
 		<image>
 			<title>Catbot Changelog</title>
 			<url />
@@ -15,6 +15,18 @@
 			<width>72</width>
 			<height>72</height>
 		</image>
+		<item>
+			<title>v1.2.10</title>
+			<link>https://catbot.dev</link>
+			<description><![CDATA[- Added the cbastolfo command which retrieves a random image of Astolfo]]></description>
+            <pubDate>Sat, 2 October 2021</pubDate>
+		</item>
+		<item>
+			<title>v1.2.9</title>
+			<link>https://catbot.dev</link>
+			<description><![CDATA[- Added the cbcatgirl command which retrieves random catgirl images]]></description>
+            <pubDate>Tue, 28 September 2021</pubDate>
+		</item>
 		<item>
 			<title>v1.2.8</title>
 			<link>https://catbot.dev</link>
