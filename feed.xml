@@ -5,7 +5,7 @@
 		<link>https://catbot.dev</link>
 		<description>Updates from the Catbot changelog.</description>
 		<language>en-us</language>
-		<lastBuildDate>Tue, 12 Oct 2021 10:00:00 GMT</lastBuildDate>
+		<lastBuildDate>Tue, 16 Nov 2021 17:35:00 GMT</lastBuildDate>
 		<managingEditor>kristian@catboys.com</managingEditor>
 		<webMaster>webmaster@catboys.com</webMaster>
 		<image>
@@ -15,6 +15,18 @@
 			<width>72</width>
 			<height>72</height>
 		</image>
+		<item>
+			<title>v1.2.13</title>
+			<link>https://catbot.dev</link>
+			<description><![CDATA[- Added the cbbaka command which when ran, returns an image representing baka]]></description>
+            <pubDate>Tue, 16 November 2021</pubDate>
+		</item>
+		<item>
+			<title>v1.2.12</title>
+			<link>https://catbot.dev</link>
+			<description><![CDATA[- Added the cbdice command which when ran, rolls a virtual 6-sided dic]]></description>
+            <pubDate>Thu, 14 October 2021</pubDate>
+		</item>
 		<item>
 			<title>v1.2.11</title>
 			<link>https://catbot.dev</link>
