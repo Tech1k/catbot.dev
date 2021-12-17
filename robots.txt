@@ -3,9 +3,7 @@ User-agent: *
 Allow: /
 Disallow: /thanks
 Disallow: /invite
-Disallow: /invite_telegram
 Disallow: /discord
-Disallow: /telegram
 Disallow: /error/
 
 Sitemap: https://catbot.dev/sitemap.xml
